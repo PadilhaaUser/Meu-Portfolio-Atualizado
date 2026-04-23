@@ -7,63 +7,63 @@ export default function Projects() {
       title: 'Alphap Imóveis - Landing Page',
       desc: 'Projeto real (freelancer) desenvolvido para focar em SEO, responsividade e conversão.',
       techs: ['HTML', 'CSS', 'JAVASCRIPT', 'NETLIFY'],
-      img: 'https://padilhaauser.github.io/Meu-Portfolio/assets/AlphapImoveis-CU2hTOnt.webp',
+      img: '/AlphapImoveis.webp',
       link: 'https://alphapimoveis.netlify.app/'
     },
     {
       title: 'Sistema de Gerenciamento CRUD',
-      desc: 'Aplicação web simulando um sistema administrativo simples para pequenos negócios.',
-      techs: ['JAVASCRIPT', 'HTML', 'CSS'],
-      img: 'https://padilhaauser.github.io/Meu-Portfolio/assets/CRUD-1I8RERXe.webp',
+      desc: 'Aplicação web simulando um sistema administrativo simples para pequenos negócios, com banco de dados no Google Firebase.',
+      techs: ['JAVASCRIPT', 'HTML', 'CSS', 'FIREBASE'],
+      img: '/fotoCRUD.png',
       link: 'https://padilhaauser.github.io/CRUD/'
     },
     {
       title: 'NewFlix v2',
       desc: 'Projeto de streaming responsivo recriado na versão mais recente.',
       techs: ['REACT', 'CSS', 'JS'],
-      img: 'https://padilhaauser.github.io/Meu-Portfolio/assets/NewFlix2-Bugcg4Z9.webp',
+      img: '/NewFlix2.webp',
       link: 'https://padilhaauser.github.io/Projeto-Streaming-v2.0/'
     },
     {
       title: 'NewFlix v1',
       desc: 'Primeira versão do simulador de streaming focado em estilização básica.',
       techs: ['HTML', 'CSS', 'JS'],
-      img: 'https://padilhaauser.github.io/Meu-Portfolio/assets/NewFlix1-DaE7SHzh.webp',
+      img: '/NewFlix1.webp',
       link: 'https://padilhaauser.github.io/Projeto-Streaming-v1.0/'
     },
     {
       title: 'Prova Técnica API Rest UserHUB',
       desc: 'Integração de dados assíncronos e requisição de APIs REST.',
       techs: ['HTML', 'CSS', 'JAVASCRIPT', 'APIs'],
-      img: 'https://padilhaauser.github.io/Meu-Portfolio/assets/UserHUB-DttxCFgW.webp',
+      img: '/userHub.webp',
       link: 'https://padilhaauser.github.io/ProvaTecnica-UserHUB/'
     },
     {
       title: 'Calculadora Formulário',
       desc: 'Formulário 3D moderno focado em UI e interatividade.',
       techs: ['HTML', 'CSS', 'JS'],
-      img: 'https://padilhaauser.github.io/Meu-Portfolio/assets/cartaoPagamento-DsH7oxHh.webp',
+      img: '/cartaoPagamento.webp',
       link: 'https://padilhaauser.github.io/formulario-cartao-credito/'
     },
     {
       title: 'Jogo da Memória',
       desc: 'Recriação interativa de um jogo de memória simples focado em manipulação do DOM.',
       techs: ['HTML', 'CSS', 'JS'],
-      img: 'https://padilhaauser.github.io/Meu-Portfolio/assets/JogoMemoria-BGqby53h.webp',
+      img: '/JogoMemoria.webp',
       link: 'https://padilhaauser.github.io/JogoDaMemoria-HtmlCssJS/'
     },
     {
       title: 'Calculador de Dígitos (CPF/CNPJ)',
       desc: 'Algoritmo avançado para cálculo e validação estruturada em retaguarda.',
       techs: ['C#', 'PYTHON', 'OOP'],
-      img: 'https://padilhaauser.github.io/Meu-Portfolio/assets/Calculador-Da_rxx5U.webp',
+      img: '/Calculador.webp',
       link: 'https://github.com/PadilhaaUser/Projeto-de-Programacao-Orientada-a-Objetos'
     },
     {
       title: 'Jogo da Cobrinha',
       desc: 'Clássico jogo no terminal com manipulação de colisões e matrizes.',
       techs: ['C', 'TERMINAL'],
-      img: 'https://padilhaauser.github.io/Meu-Portfolio/assets/SnakeGame-tvaQCDY3.webp',
+      img: '/SnakeGame.webp',
       link: 'https://github.com/PadilhaaUser/jogo-cobrinha'
     }
   ];
