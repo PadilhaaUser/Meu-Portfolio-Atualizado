@@ -14,11 +14,11 @@ export default function Contact() {
           className="max-w-7xl mx-auto text-center relative z-10"
         >
           <h2 className="font-headline text-5xl md:text-8xl font-black tracking-tighter text-white mb-12 uppercase leading-none">
-              READY TO<br/>AUTOMATE?
+              READY TO<br/>BUILD?
           </h2>
           <div className="flex flex-col items-center gap-8">
             <p className="font-body text-on-surface-variant text-xl max-w-xl">
-                Buscando soluções robustas e automação eficiente? Entre em contato e vamos conversar.
+                Buscando aplicações robustas e desenvolvimento eficiente para a sua ideia? Entre em contato e vamos conversar.
             </p>
             <a href="https://wa.me/5541984840223?text=Olá%20Paulo,%20vim%20pelo%20seu%20portfólio!" target="_blank" rel="noreferrer" className="group px-12 py-6 bg-primary text-on-primary font-headline font-bold drop-shadow-md md:text-2xl rounded-sm hover:-translate-y-1 transition-all duration-300 flex items-center gap-4 hover:shadow-[0_0_20px_rgba(255,214,0,0.4)]">
                 GET IN TOUCH
@@ -38,7 +38,7 @@ export default function Contact() {
           className="flex flex-col md:flex-row justify-between items-center gap-8 px-12 max-w-7xl mx-auto font-['Inter'] text-[0.75rem] tracking-[0.1em] uppercase"
         >
           <div className="text-[#FFD600] font-bold">
-              RPA & FULLSTACK DEVELOPER
+              SOFTWARE ENGINEER
           </div>
           <div className="text-zinc-500">
               © 2026 DESIGNED BY PAULO PADILHA, TODOS OS DIREITOS RESERVADOS

@@ -14,17 +14,14 @@ export default function About() {
         <div className="relative">
           <div className="font-label text-xs tracking-[0.2em] text-primary mb-6 uppercase">01 // IDENTITY</div>
           <h2 className="font-headline text-4xl md:text-6xl font-bold tracking-tighter mb-8 text-white uppercase">
-              SOBRE MIM.
+              ABOUT ME.
           </h2>
           <div className="w-20 h-1 bg-primary mb-12"></div>
           <p className="font-body text-lg text-on-surface-variant leading-relaxed mb-6">
-              Sou um Engenheiro de Software em constante evolução, focado na intersecção entre <strong>desenvolvimento web e Automação de Processos Robóticos (RPA)</strong>. 
-          </p>
-          <p className="font-body text-lg text-on-surface-variant leading-relaxed mb-6">
-              Com sólida base na lógica de programação e experiência atuando como freelancer, desenvolvo soluções práticas para eliminação de atritos rotineiros. Meu foco abrange desde a criação de Landing Pages otimizadas e sistemas web complexos até a construção de bots autônomos para Web Scraping, extração de relatórios CSV, disparos de E-mail/WhatsApp e manipulação inteligente de PDFs.
+              Engenheiro de software formado, com foco em desenvolvimento web e automação de processos (RPA). Atuo como freelancer na criação de sites e landing pages modernas, responsivas e orientadas à conversão, utilizando tecnologias como React, JavaScript, Tailwind CSS, Vite e Node.js. Possuo experiência na publicação e otimização de aplicações, sempre buscando performance, boa experiência do usuário (UX/UI) e soluções práticas para clientes.
           </p>
           <p className="font-body text-lg text-on-surface-variant leading-relaxed">
-              Minha filosofia é clara: <em>software inteligente não apenas funciona, mas trabalha por você</em>. Atuo com resiliência para transformar tempo humano desperdiçado em processos digitalizados, entregando usabilidade, conversão e código estruturado.
+              Atualmente, também aprofundo meus conhecimentos em automação com RPA, explorando ferramentas e integrações que aumentam a eficiência de processos. Tenho perfil analítico, organizado e orientado a resultados, com facilidade em aprender novas tecnologias e adaptá-las às necessidades de cada projeto.
           </p>
         </div>
         <div className="flex justify-center md:justify-end">
@@ -41,7 +38,7 @@ export default function About() {
             <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-80"></div>
             
             <div className="absolute bottom-6 left-6 font-label text-[10px] tracking-widest text-[#FFD600] uppercase z-10 bg-background/80 px-3 py-1 backdrop-blur-sm">
-                SOFTWARE & AUTOMATION
+                SOFTWARE ENGINEER
             </div>
           </div>
         </div>

@@ -39,8 +39,8 @@ export default function Projects() {
       link: 'https://padilhaauser.github.io/ProvaTecnica-UserHUB/'
     },
     {
-      title: 'Calculadora Formulário',
-      desc: 'Formulário 3D moderno focado em UI e interatividade.',
+      title: 'Formulário Cartão de Crédito',
+      desc: 'Interface de pagamento com validação dinâmica e reflexo de dados em tempo real no cartão virtual.',
       techs: ['HTML', 'CSS', 'JS'],
       img: '/cartaoPagamento.webp',
       link: 'https://padilhaauser.github.io/formulario-cartao-credito/'
@@ -93,7 +93,7 @@ export default function Projects() {
           transition={{ duration: 0.8 }}
           className="font-label text-xs tracking-[0.2em] text-primary mb-6 uppercase"
         >
-            03 // MECHANICS
+            03 // PROJECTS
         </motion.div>
         
         <motion.h2 
@@ -101,88 +101,11 @@ export default function Projects() {
           whileInView={{ opacity: 1, scale: 1 }}
           viewport={{ once: false, amount: 0.1 }}
           transition={{ duration: 0.7 }}
-          className="font-headline text-4xl md:text-7xl font-bold tracking-tighter mb-16 text-white uppercase max-w-4xl"
+          className="font-headline text-4xl md:text-7xl font-bold tracking-tighter mb-8 text-white uppercase max-w-4xl"
         >
-            INTELLIGENT WORKFLOW SYNCHRONIZATION
+            MY PROJECTS
         </motion.h2>
 
-        <motion.div 
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          viewport={{ once: false, amount: 0.1 }}
-          transition={{ duration: 1 }}
-          className="w-full relative py-20 px-4"
-        >
-          {/* Conceptual Diagram */}
-          <div className="flex flex-col md:flex-row justify-between items-center gap-12 relative">
-            {/* Step 1 */}
-            <motion.div 
-              initial={{ x: -30, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} viewport={{ once: false, amount: 0.1 }} transition={{ delay: 0.2 }}
-              className="flex flex-col items-center gap-4 z-10 bg-background p-8 border border-outline-variant/20 rounded-lg w-full md:w-64"
-            >
-              <span className="material-symbols-outlined text-primary text-4xl">input</span>
-              <div className="font-label text-[10px] tracking-widest text-on-surface-variant uppercase">Data Ingest</div>
-              <div className="h-2 w-full bg-surface-variant rounded-full overflow-hidden">
-                <div className="h-full bg-primary w-2/3"></div>
-              </div>
-            </motion.div>
-            
-            <motion.div 
-              initial={{ scaleX: 0 }} whileInView={{ scaleX: 1 }} viewport={{ once: false, amount: 0.1 }} transition={{ duration: 1, delay: 0.5 }}
-              className="hidden md:block flex-grow h-[1px] bg-gradient-to-r from-primary/20 to-primary/20 relative origin-left"
-            >
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-primary w-2 h-2 rounded-full shadow-[0_0_10px_#ffd600]"></div>
-            </motion.div>
-
-            {/* Step 2 */}
-            <motion.div 
-              initial={{ y: 30, opacity: 0 }} whileInView={{ y: 0, opacity: 1 }} viewport={{ once: true }} transition={{ delay: 1 }}
-              className="flex flex-col items-center gap-4 z-10 bg-background p-8 border border-outline-variant/20 rounded-lg w-full md:w-64 relative overflow-hidden"
-            >
-              <span className="material-symbols-outlined text-primary text-4xl relative z-10">settings_suggest</span>
-              <div className="font-label text-[10px] tracking-widest text-on-surface-variant uppercase relative z-10">RPA Engine</div>
-              <div className="flex gap-1 relative z-10">
-                <div className="w-3 h-3 bg-primary animate-pulse"></div>
-                <div className="w-3 h-3 bg-primary animate-pulse" style={{ animationDelay: '200ms' }}></div>
-                <div className="w-3 h-3 bg-surface-variant"></div>
-              </div>
-            </motion.div>
-            
-            <motion.div 
-              initial={{ scaleX: 0 }} whileInView={{ scaleX: 1 }} viewport={{ once: true }} transition={{ duration: 1, delay: 1.3 }}
-              className="hidden md:block flex-grow h-[1px] bg-gradient-to-r from-primary/20 to-primary/20 relative origin-left"
-            >
-              <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-primary w-2 h-2 rounded-full shadow-[0_0_10px_#ffd600]"></div>
-            </motion.div>
-
-            {/* Step 3 */}
-            <motion.div 
-              initial={{ x: 30, opacity: 0 }} whileInView={{ x: 0, opacity: 1 }} viewport={{ once: true }} transition={{ delay: 1.8 }}
-              className="flex flex-col items-center gap-4 z-10 bg-background p-8 border border-outline-variant/20 rounded-lg w-full md:w-64"
-            >
-              <span className="material-symbols-outlined text-primary text-4xl">output</span>
-              <div className="font-label text-[10px] tracking-widest text-on-surface-variant uppercase">Autonomous Output</div>
-              <div className="h-2 w-full bg-surface-variant rounded-full overflow-hidden">
-                <div className="h-full bg-primary w-full"></div>
-              </div>
-            </motion.div>
-          </div>
-          {/* Abstract Path */}
-          <svg className="absolute inset-0 w-full h-full pointer-events-none opacity-5" viewBox="0 0 1200 400">
-            <path d="M0,200 Q300,50 600,200 T1200,200" fill="none" stroke="white" strokeWidth="1"></path>
-            <path d="M0,220 Q300,70 600,220 T1200,220" fill="none" stroke="white" strokeWidth="1"></path>
-          </svg>
-        </motion.div>
-        
-        <motion.p 
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: true, margin: "-100px" }}
-          transition={{ duration: 0.8 }}
-          className="font-body text-on-surface-variant text-lg max-w-2xl mt-12 mb-24 leading-relaxed"
-        >
-            Meus projetos refletem o compromisso com automação e soluções web completas. De robôs que reduzem processos manuais complexos a plataformas com foco irrestrito em conversão e usabilidade.
-        </motion.p>
 
         {/* Real Projects */}
         <motion.div 
