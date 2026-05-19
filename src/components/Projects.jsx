@@ -18,11 +18,11 @@ export default function Projects() {
       link: 'https://padilhaauser.github.io/CRUD/'
     },
     {
-      title: 'NewFlix v2',
-      desc: 'Projeto de streaming responsivo recriado na versão mais recente.',
-      techs: ['REACT', 'CSS', 'JS'],
-      img: '/NewFlix2.webp',
-      link: 'https://padilhaauser.github.io/Projeto-Streaming-v2.0/'
+      title: 'Projeto CineCore',
+      desc: 'O Projeto CineCore é uma plataforma interativa para descoberta de filmes e séries, integrada às APIs do TMDB e OMDb. Desenvolvido com uma arquitetura moderna utilizando React e Node.js.',
+      techs: ['REACT', 'NODE.JS', 'APIs'],
+      img: '/CineCore.webp',
+      link: 'https://cine-core.vercel.app'
     },
     {
       title: 'NewFlix v1',
