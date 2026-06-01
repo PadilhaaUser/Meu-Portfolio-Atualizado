@@ -56,16 +56,16 @@ export default function Hero() {
         {/* Tech Badges / Stats */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full border-t border-white/10 pt-12 mt-auto">
           <div className="flex flex-col items-center justify-center p-6 bg-white/[0.01] border border-white/5 rounded-lg hover:border-primary/50 hover:bg-primary/5 transition-all group">
-            <span className="text-primary font-bold text-3xl mb-2 group-hover:scale-110 transition-transform">Full-Stack</span>
-            <span className="text-[10px] text-on-surface-variant tracking-[0.2em] font-label uppercase text-center">React, Django & Node.js</span>
+            <span className="text-primary font-bold text-3xl mb-2 group-hover:scale-110 transition-transform">Frontend</span>
+            <span className="text-[10px] text-on-surface-variant tracking-[0.2em] font-label uppercase text-center">React, Tailwind & UX/UI</span>
           </div>
           <div className="flex flex-col items-center justify-center p-6 bg-white/[0.01] border border-white/5 rounded-lg hover:border-primary/50 hover:bg-primary/5 transition-all group">
-            <span className="text-primary font-bold text-3xl mb-2 group-hover:scale-110 transition-transform">Web</span>
-            <span className="text-[10px] text-on-surface-variant tracking-[0.2em] font-label uppercase text-center">React, Node, Python</span>
+            <span className="text-primary font-bold text-3xl mb-2 group-hover:scale-110 transition-transform">Backend</span>
+            <span className="text-[10px] text-on-surface-variant tracking-[0.2em] font-label uppercase text-center">Django, Node.js & APIs</span>
           </div>
           <div className="flex flex-col items-center justify-center p-6 bg-white/[0.01] border border-white/5 rounded-lg hover:border-primary/50 hover:bg-primary/5 transition-all group">
-            <span className="text-primary font-bold text-3xl mb-2 group-hover:scale-110 transition-transform">100%</span>
-            <span className="text-[10px] text-on-surface-variant tracking-[0.2em] font-label uppercase text-center">Foco no Cliente</span>
+            <span className="text-primary font-bold text-3xl mb-2 group-hover:scale-110 transition-transform">Bancos</span>
+            <span className="text-[10px] text-on-surface-variant tracking-[0.2em] font-label uppercase text-center">PostgreSQL, SQL & SQLite</span>
           </div>
         </div>
       </motion.div>
