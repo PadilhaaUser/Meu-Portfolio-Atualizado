@@ -32,7 +32,7 @@ export default function Hero() {
       >
         <div className="inline-flex items-center gap-3 mb-8 px-5 py-2 border border-primary/30 bg-primary/5 backdrop-blur-sm rounded-full">
           <span className="w-2 h-2 rounded-full bg-primary animate-pulse shadow-[0_0_8px_#ffd600]"></span>
-          <span className="font-label text-xs tracking-[0.2em] uppercase font-bold text-primary">Dev RPA & Eng. de Software</span>
+          <span className="font-label text-xs tracking-[0.2em] uppercase font-bold text-primary">Engenheiro de Software Full-Stack</span>
           <span className="w-2 h-2 rounded-full bg-primary animate-pulse shadow-[0_0_8px_#ffd600]"></span>
         </div>
         
@@ -41,7 +41,7 @@ export default function Hero() {
         </h1>
         
         <p className="font-headline text-lg md:text-2xl text-on-surface-variant mb-12 max-w-3xl leading-relaxed tracking-tight">
-            Engenheiro de Software com foco em desenvolvimento web e <strong>automação de processos (RPA UiPath e Python)</strong>. Crio sistemas responsivos e robôs inteligentes que otimizam resultados, desde integrações web a extração massiva de dados.
+            Engenheiro de Software com foco em desenvolvimento full-stack. Crio sistemas modernos, responsivos e aplicações robustas de ponta a ponta, integrando interfaces refinadas a arquiteturas de backend altamente eficientes.
         </p>
 
         <div className="flex flex-wrap justify-center gap-6 mb-20">
@@ -56,8 +56,8 @@ export default function Hero() {
         {/* Tech Badges / Stats */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6 w-full border-t border-white/10 pt-12 mt-auto">
           <div className="flex flex-col items-center justify-center p-6 bg-white/[0.01] border border-white/5 rounded-lg hover:border-primary/50 hover:bg-primary/5 transition-all group">
-            <span className="text-primary font-bold text-3xl mb-2 group-hover:scale-110 transition-transform">RPA</span>
-            <span className="text-[10px] text-on-surface-variant tracking-[0.2em] font-label uppercase text-center">Automação Inteligente</span>
+            <span className="text-primary font-bold text-3xl mb-2 group-hover:scale-110 transition-transform">Full-Stack</span>
+            <span className="text-[10px] text-on-surface-variant tracking-[0.2em] font-label uppercase text-center">React, Django & Node.js</span>
           </div>
           <div className="flex flex-col items-center justify-center p-6 bg-white/[0.01] border border-white/5 rounded-lg hover:border-primary/50 hover:bg-primary/5 transition-all group">
             <span className="text-primary font-bold text-3xl mb-2 group-hover:scale-110 transition-transform">Web</span>

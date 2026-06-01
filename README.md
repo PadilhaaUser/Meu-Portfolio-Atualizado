@@ -1,6 +1,6 @@
-# Paulo Padilha | Engenharia de Software & Automação Inteligente
+# Paulo Padilha | Engenharia de Software Full-Stack
 
-Projeto de portfólio moderno construído para exibir excelência técnica, destacando competências de engenharia back-end, web e automação robótica (RPA).
+Projeto de portfólio moderno construído para exibir excelência técnica, destacando competências de engenharia de software full-stack, desenvolvimento web e APIs robustas.
 
 ## 🚀 Arquitetura & Tecnologias
 Este ecossistema foi projetado para alta escalabilidade e performance (SPA), focado na identidade técnica "Premium/Cinemática":

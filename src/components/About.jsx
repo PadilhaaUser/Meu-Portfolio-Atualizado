@@ -18,10 +18,10 @@ export default function About() {
           </h2>
           <div className="w-20 h-1 bg-primary mb-12"></div>
           <p className="font-body text-lg text-on-surface-variant leading-relaxed mb-6">
-              Engenheiro de software formado, com foco em desenvolvimento web e automação de processos (RPA). Atuo como freelancer na criação de sites e landing pages modernas, responsivas e orientadas à conversão, utilizando tecnologias como React, JavaScript, Tailwind CSS, Vite e Node.js. Possuo experiência na publicação e otimização de aplicações, sempre buscando performance, boa experiência do usuário (UX/UI) e soluções práticas para clientes.
+              Engenheiro de Software formado, com foco em desenvolvimento full-stack utilizando React no frontend e Django/Node.js no backend. Atuo como freelancer na criação de sites e landing pages modernas e responsivas. Tenho experiência prática na construção de aplicações completas — do banco de dados à interface — com atenção a performance, UX/UI e boas práticas de código.
           </p>
           <p className="font-body text-lg text-on-surface-variant leading-relaxed">
-              Atualmente, também aprofundo meus conhecimentos em automação com RPA, explorando ferramentas e integrações que aumentam a eficiência de processos. Tenho perfil analítico, organizado e orientado a resultados, com facilidade em aprender novas tecnologias e adaptá-las às necessidades de cada projeto.
+              Tenho perfil analítico, organizado e orientado a resultados, com facilidade em aprender e adaptar novas tecnologias às necessidades de cada projeto.
           </p>
         </div>
         <div className="flex justify-center md:justify-end">
@@ -38,7 +38,7 @@ export default function About() {
             <div className="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-80"></div>
             
             <div className="absolute bottom-6 left-6 font-label text-[10px] tracking-widest text-[#FFD600] uppercase z-10 bg-background/80 px-3 py-1 backdrop-blur-sm">
-                SOFTWARE ENGINEER
+                ENGENHEIRO DE SOFTWARE FULL-STACK
             </div>
           </div>
         </div>

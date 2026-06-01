@@ -57,15 +57,15 @@ export default function Skills() {
           {/* Skill Card 2 */}
           <motion.div variants={itemVariants} className="bg-surface-container p-10 hover:bg-surface-container-high transition-all duration-300 group relative">
             <div className="absolute top-0 left-0 w-full h-[1px] bg-primary scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500"></div>
-            <span className="material-symbols-outlined text-4xl text-primary mb-8">precision_manufacturing</span>
-            <h3 className="font-headline text-2xl font-bold text-white mb-4">AUTOMATION & DATA</h3>
-            <p className="font-body text-sm text-on-surface-variant leading-relaxed mb-6">Automação de negócios com RPA, Web Scraping, extração de dados e processamento inteligente para otimização de tempo.</p>
+            <span className="material-symbols-outlined text-4xl text-primary mb-8">database</span>
+            <h3 className="font-headline text-2xl font-bold text-white mb-4">PYTHON & DJANGO</h3>
+            <p className="font-body text-sm text-on-surface-variant leading-relaxed mb-6">Criação de aplicações web dinâmicas, APIs robustas, modelagem de banco de dados e painéis administrativos completos.</p>
             <div className="flex flex-wrap gap-2">
-              <span className="px-3 py-1 bg-surface-container-highest text-[10px] tracking-tighter font-label text-on-surface-variant rounded-sm">UIPATH (RPA)</span>
-              <span className="px-3 py-1 bg-surface-container-highest text-[10px] tracking-tighter font-label text-on-surface-variant rounded-sm">WEB SCRAPING</span>
-              <span className="px-3 py-1 bg-surface-container-highest text-[10px] tracking-tighter font-label text-on-surface-variant rounded-sm">AUTO: PLANILHAS & PDF</span>
-              <span className="px-3 py-1 bg-surface-container-highest text-[10px] tracking-tighter font-label text-on-surface-variant rounded-sm">AUTO: EMAIL E WHATSAPP</span>
-              <span className="px-3 py-1 bg-surface-container-highest text-[10px] tracking-tighter font-label text-on-surface-variant rounded-sm">SQL SERVER / MYSQL</span>
+              <span className="px-3 py-1 bg-surface-container-highest text-[10px] tracking-tighter font-label text-on-surface-variant rounded-sm">PYTHON</span>
+              <span className="px-3 py-1 bg-surface-container-highest text-[10px] tracking-tighter font-label text-on-surface-variant rounded-sm">DJANGO</span>
+              <span className="px-3 py-1 bg-surface-container-highest text-[10px] tracking-tighter font-label text-on-surface-variant rounded-sm">POSTGRESQL</span>
+              <span className="px-3 py-1 bg-surface-container-highest text-[10px] tracking-tighter font-label text-on-surface-variant rounded-sm">SQLITE</span>
+              <span className="px-3 py-1 bg-surface-container-highest text-[10px] tracking-tighter font-label text-on-surface-variant rounded-sm">APIs REST</span>
             </div>
           </motion.div>
 

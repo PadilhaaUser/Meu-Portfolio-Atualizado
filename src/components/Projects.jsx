@@ -25,11 +25,11 @@ export default function Projects() {
       link: 'https://cine-core.vercel.app'
     },
     {
-      title: 'NewFlix v1',
-      desc: 'Primeira versão do simulador de streaming focado em estilização básica.',
-      techs: ['HTML', 'CSS', 'JS'],
-      img: '/NewFlix1.webp',
-      link: 'https://padilhaauser.github.io/Projeto-Streaming-v1.0/'
+      title: 'Django Blog',
+      desc: 'Blog completo desenvolvido com Django. Conta com postagens, categorias, comentários, autenticação e painel administrativo, utilizando SQLite em desenvolvimento local e PostgreSQL em produção.',
+      techs: ['DJANGO', 'PYTHON', 'POSTGRESQL', 'RENDER'],
+      img: '/fotoBlog.png',
+      link: 'https://django-blog-ujh6.onrender.com/'
     },
     {
       title: 'Prova Técnica API Rest UserHUB',
