@@ -26,10 +26,11 @@ export default function Projects() {
     },
     {
       title: 'Django Blog',
-      desc: 'Blog completo desenvolvido com Django. Conta com postagens, categorias, comentários, autenticação e painel administrativo, utilizando SQLite em desenvolvimento local e PostgreSQL em produção.',
+      desc: 'Blog em Django com posts, comentários, categorias, login e painel administrativo. SQLite local e PostgreSQL (Neon) em produção.',
       techs: ['DJANGO', 'PYTHON', 'POSTGRESQL', 'RENDER'],
       img: '/fotoBlog.png',
-      link: 'https://django-blog-ujh6.onrender.com/'
+      link: 'https://django-blog-ujh6.onrender.com/',
+      objectFit: 'contain'
     },
     {
       title: 'Prova Técnica API Rest UserHUB',
@@ -125,9 +126,15 @@ export default function Projects() {
               className="bg-surface-container-low group relative overflow-hidden flex flex-col transition-all duration-300 hover:bg-surface-container-highest min-h-[420px]"
             >
               <div className="absolute top-0 left-0 w-full h-[1px] bg-primary scale-x-0 group-hover:scale-x-100 transition-transform origin-left duration-500 z-10"></div>
-              <div className="w-full h-48 overflow-hidden relative flex-shrink-0">
-                 <img src={proj.img} alt={proj.title} className="w-full h-full object-cover grayscale-[0.8] opacity-80 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-out" />
-                 <div className="absolute inset-0 bg-gradient-to-t from-surface-container-low to-transparent mix-blend-multiply"></div>
+              <div className={`w-full h-48 overflow-hidden relative flex-shrink-0 ${proj.objectFit === 'contain' ? 'bg-black/30' : ''}`}>
+                 <img 
+                   src={proj.img} 
+                   alt={proj.title} 
+                   className={`w-full h-full ${proj.objectFit === 'contain' ? 'object-contain p-2' : 'object-cover'} grayscale-[0.8] opacity-80 group-hover:grayscale-0 group-hover:opacity-100 group-hover:scale-105 transition-all duration-700 ease-out`} 
+                 />
+                 {proj.objectFit !== 'contain' && (
+                   <div className="absolute inset-0 bg-gradient-to-t from-surface-container-low to-transparent mix-blend-multiply"></div>
+                 )}
               </div>
               <div className="p-8 flex-grow flex flex-col justify-between">
                 <div>
