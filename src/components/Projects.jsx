@@ -4,6 +4,13 @@ import { motion } from 'framer-motion';
 export default function Projects() {
   const projects = [
     {
+      title: 'Vesta Manager',
+      desc: 'Gerenciador de despesas pessoais completo, desenvolvido com React no frontend, Django REST Framework no backend e banco de dados PostgreSQL.',
+      techs: ['REACT', 'DJANGO', 'POSTGRESQL', 'PYTHON'],
+      img: '/fotoVesta.png',
+      link: 'https://vestamanager.vercel.app/'
+    },
+    {
       title: 'Alphap Imóveis - Landing Page',
       desc: 'Projeto real (freelancer) desenvolvido para focar em SEO, responsividade e conversão.',
       techs: ['HTML', 'CSS', 'JAVASCRIPT', 'NETLIFY'],
