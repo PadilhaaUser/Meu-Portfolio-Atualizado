@@ -5,7 +5,7 @@ export default function Projects() {
   const projects = [
     {
       title: 'Vesta Manager',
-      desc: 'Gerenciador de despesas pessoais completo, desenvolvido com React no frontend, Django REST Framework no backend e banco de dados PostgreSQL.',
+      desc: 'Gerenciador de despesas pessoais com React, Django REST Framework e PostgreSQL.',
       techs: ['REACT', 'DJANGO', 'POSTGRESQL', 'PYTHON'],
       img: '/fotoVesta.png',
       link: 'https://vestamanager.vercel.app/'
